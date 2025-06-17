@@ -15,7 +15,7 @@ class _HomeControllerState extends State<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("BNB"),
+        title: Text("BNB app bar"),
         centerTitle: true,
       ),
       body: Center(
