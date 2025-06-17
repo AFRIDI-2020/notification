@@ -1,0 +1,41 @@
+PODS:
+  - awesome_notifications (0.10.0):
+    - Flutter
+    - IosAwnCore (~> 0.10.0)
+  - Flutter (1.0.0)
+  - IosAwnCore (0.10.0)
+  - wifi_iot (0.0.1):
+    - Flutter
+  - wifi_scan (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - awesome_notifications (from `.symlinks/plugins/awesome_notifications/ios`)
+  - Flutter (from `Flutter`)
+  - wifi_iot (from `.symlinks/plugins/wifi_iot/ios`)
+  - wifi_scan (from `.symlinks/plugins/wifi_scan/ios`)
+
+SPEC REPOS:
+  trunk:
+    - IosAwnCore
+
+EXTERNAL SOURCES:
+  awesome_notifications:
+    :path: ".symlinks/plugins/awesome_notifications/ios"
+  Flutter:
+    :path: Flutter
+  wifi_iot:
+    :path: ".symlinks/plugins/wifi_iot/ios"
+  wifi_scan:
+    :path: ".symlinks/plugins/wifi_scan/ios"
+
+SPEC CHECKSUMS:
+  awesome_notifications: dd5518ff1c80be03d4f1c40f04da9d9cc2a37af5
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  IosAwnCore: 653786a911089012092ce831f2945cd339855a89
+  wifi_iot: b5aafd6f9b52f8a357383a1deabab45f31cd602d
+  wifi_scan: 6d20b3b4f59bbad1ddcf3e241560f3acd62f6cbe
+
+PODFILE CHECKSUM: 3364c910521bdaa0fe3d47c7deb374e8bb34103d
+
+COCOAPODS: 1.15.2
