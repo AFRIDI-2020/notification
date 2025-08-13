@@ -74,14 +74,16 @@ class _WifiListState extends State<WifiList> {
 
   void _stopListeningToScanResults() {
     subscription?.cancel();
-    setState(() => subscription = null);
+    if(mounted) {
+      setState(() => subscription = null);
+    }
   }
 
   @override
   void dispose() {
+    subscription?.cancel();
     super.dispose();
-    // stop subscription for scanned results
-    _stopListeningToScanResults();
+
   }
 
   // build toggle with label

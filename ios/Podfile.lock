@@ -3,6 +3,10 @@ PODS:
     - Flutter
     - IosAwnCore (~> 0.10.0)
   - Flutter (1.0.0)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - integration_test (0.0.1):
+    - Flutter
   - IosAwnCore (0.10.0)
   - wifi_iot (0.0.1):
     - Flutter
@@ -12,6 +16,8 @@ PODS:
 DEPENDENCIES:
   - awesome_notifications (from `.symlinks/plugins/awesome_notifications/ios`)
   - Flutter (from `Flutter`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
   - wifi_iot (from `.symlinks/plugins/wifi_iot/ios`)
   - wifi_scan (from `.symlinks/plugins/wifi_scan/ios`)
 
@@ -24,6 +30,10 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/awesome_notifications/ios"
   Flutter:
     :path: Flutter
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
   wifi_iot:
     :path: ".symlinks/plugins/wifi_iot/ios"
   wifi_scan:
@@ -32,6 +42,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   awesome_notifications: dd5518ff1c80be03d4f1c40f04da9d9cc2a37af5
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  image_picker_ios: c560581cceedb403a6ff17f2f816d7fea1421fc1
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
   IosAwnCore: 653786a911089012092ce831f2945cd339855a89
   wifi_iot: b5aafd6f9b52f8a357383a1deabab45f31cd602d
   wifi_scan: 6d20b3b4f59bbad1ddcf3e241560f3acd62f6cbe
